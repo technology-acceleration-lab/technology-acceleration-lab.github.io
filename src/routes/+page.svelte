@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { base } from '$app/paths'
+
 	const members = [
 		{
 			id: 'member-1',
@@ -160,7 +162,7 @@
 			{#each members as member (member.id)}
 				<article class="member-card">
 					{#if member.iconUrl}
-						<img class="member-icon" src={member.iconUrl} alt={`${member.name}のアイコン`} />
+						<img class="member-icon" src={`${base}${member.iconUrl}`} alt={`${member.name}のアイコン`} />
 					{:else}
 						<div class="member-initial" aria-hidden="true">{member.initial}</div>
 					{/if}
