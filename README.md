@@ -61,8 +61,8 @@ pnpm preview
 }
 ```
 
-## AWS Amplify Hosting
+## GitHub Pages Hosting
 
-Connect the repository and select this directory as the Amplify app root when prompted. Amplify reads `amplify.yml`, installs the locked pnpm dependencies, builds the site, and publishes `build/`.
+このリポジトリは GitHub Actions で自動的に GitHub Pages へデプロイされます。`main` ブランチへのプッシュ時に `.github/workflows/deploy.yml` が実行され、`build/` の成果物が公開されます。
 
-The generated `404.html` is used as the hosting fallback for client-side routes.
+初回デプロイ前に、リポジトリの **Settings → Pages** で Source を **GitHub Actions** に設定してください。
