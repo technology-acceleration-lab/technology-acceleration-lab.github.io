@@ -43,31 +43,13 @@
 	const books = [
 		{
 			id: 'book-1',
-			title: '書籍タイトル',
-			description: 'ここに書籍の紹介文を入力します。',
+			title: '技術加速研究所LLM調査報告書',
+			description: '技術加速研究所メンバーによるLLMに関する調査結果を記述した本',
 			category: '技術書',
 			color: 'coral',
-			coverUrl: '',
+			coverUrl: '/books/TAL_vol1.png',
 			url: '',
-		},
-		{
-			id: 'book-2',
-			title: '書籍タイトル',
-			description: 'ここに書籍の紹介文を入力します。',
-			category: '技術書',
-			color: 'yellow',
-			coverUrl: '',
-			url: '',
-		},
-		{
-			id: 'book-3',
-			title: '書籍タイトル',
-			description: 'ここに書籍の紹介文を入力します。',
-			category: '技術書',
-			color: 'blue',
-			coverUrl: '',
-			url: '',
-		},
+		}
 	]
 
 	const bookCoverColors: Record<string, string> = {
@@ -513,7 +495,9 @@
 	}
 
 	.book-cover-image {
-		object-fit: cover;
+		aspect-ratio: 148 / 210;
+		display: block;
+		object-fit: contain;
 		padding: 0;
 	}
 
