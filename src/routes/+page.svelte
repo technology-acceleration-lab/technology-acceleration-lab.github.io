@@ -22,12 +22,12 @@
 		},
 		{
 			id: 'member-3',
-			name: 'メンバー名',
-			role: '担当・得意分野',
-			initial: 'M',
-			iconUrl: '',
-			xUrl: 'https://x.com/',
-			githubUrl: 'https://github.com/',
+			name: 'よしお',
+			role: 'LLM・GAS',
+			initial: 'Y',
+			iconUrl: '/members/yoshio.png',
+			xUrl: 'https://x.com/yoshi0_dj',
+			githubUrl: 'https://github.com/yoshi0dj',
 		},
 		{
 			id: 'member-4',
