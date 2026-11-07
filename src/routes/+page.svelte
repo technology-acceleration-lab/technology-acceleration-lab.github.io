@@ -13,12 +13,12 @@
 		},
 		{
 			id: 'member-2',
-			name: 'メンバー名',
-			role: '担当・得意分野',
-			initial: 'M',
-			iconUrl: '',
-			xUrl: 'https://x.com/',
-			githubUrl: 'https://github.com/',
+			name: 'hayao',
+			role: 'Java,LLM',
+			initial: 'H',
+			iconUrl: '/members/hayao.jpg',
+			xUrl: 'https://x.com/hayao099',
+			githubUrl: 'https://github.com/hayao099',
 		},
 		{
 			id: 'member-3',
