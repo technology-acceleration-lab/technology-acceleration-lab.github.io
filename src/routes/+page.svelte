@@ -29,6 +29,15 @@
 			xUrl: 'https://x.com/',
 			githubUrl: 'https://github.com/',
 		},
+		{
+			id: 'member-4',
+			name: 'Kushizam',
+			role: 'Python, Laravel, React',
+			initial: 'K',
+			iconUrl: '/members/kushizam.jpg',
+			xUrl: 'https://x.com/kushizam',
+			githubUrl: 'https://github.com/kushizam',
+		},
 	]
 
 	const books = [
