@@ -16,7 +16,7 @@
 			name: 'hayao',
 			role: 'Java,LLM',
 			initial: 'H',
-			iconUrl: '/members/hayao.jpg',
+			iconUrl: '/members/hayao.png',
 			xUrl: 'https://x.com/hayao099',
 			githubUrl: 'https://github.com/hayao099',
 		},
