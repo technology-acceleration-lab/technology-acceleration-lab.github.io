@@ -25,7 +25,7 @@
 			name: 'よしお',
 			role: 'LLM・GAS',
 			initial: 'Y',
-			iconUrl: '/members/yoshio.jpg',
+			iconUrl: '/members/yoshio.png',
 			xUrl: 'https://x.com/yoshi0_dj',
 			githubUrl: 'https://github.com/yoshi0dj',
 		},
