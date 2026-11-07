@@ -75,15 +75,14 @@
 		yellow: '#f6d95e',
 		blue: '#9acfc7',
 	}
-
 	const events = [
 		{
 			id: 'event-1',
-			date: 'YYYY.MM.DD',
-			name: 'イベント名',
-			venue: '会場名・スペース番号',
-			status: '出展予定',
-			eventUrl: '',
+			date: '2026.11.21-2026.12.6',
+			name: '技術書典21',
+			venue: 'オンライン / 11/23のみ 池袋・サンシャインシティ 展示ホールD（文化会館ビル2F）- そ04',
+			status: '出展',
+			eventUrl: 'https://techbookfest.org/event/tbf21/market',
 		},
 	]
 </script>
