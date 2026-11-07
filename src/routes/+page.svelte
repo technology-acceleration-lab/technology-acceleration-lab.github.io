@@ -43,7 +43,7 @@
 	const books = [
 		{
 			id: 'book-1',
-			title: '技術加速研究所LLM調査報告書',
+			title: '技術加速研究所LLM調査報告書 Vol.1',
 			description: '技術加速研究所メンバーによるLLMに関する調査結果を記述した本',
 			category: '技術書',
 			color: 'coral',
